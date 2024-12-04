@@ -31,6 +31,15 @@ body {
     display: block;
     border: 5px solid white;
     box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.squre {
+    background-color: black;
+    border: 3px solid white;
+    flex: auto;
+    width: auto;
+    height: auto;
 }
 
