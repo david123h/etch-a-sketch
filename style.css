@@ -1,45 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-
-body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 #header {
-    height: 20vh;
-    width: auto;
-    background-color: orange;
+  height: 20vh;
+  width: auto;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #main {
-    height: 80vh;
-    width: auto;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 80vh;
+  width: auto;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #container {
-    width: 55vh;
-    height: 55vh;
-    background-color: rgb(256 256 256/ 58%);
-    display: block;
-    border: 5px solid white;
-    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-wrap: wrap;
+  width: 550px;
+  height: 550px;
+  background-color: rgb(256 256 256/ 58%);
+  /* display: block; */
+  border: 5px solid white;
+  box-sizing: content-box;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .squre {
-    background-color: black;
-    border: 3px solid white;
-    flex: auto;
-    width: auto;
-    height: auto;
+  background-color: white;
+  /* border: 0.1px solid black; */
+  /* flex: 1 1 0; */
+  /* min-width: 30px;
+  aspect-ratio: 1 / 1; */
 }
-
