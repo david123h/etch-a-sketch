@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: aqua;
+}
+
 
 #header {
   height: 20vh;
@@ -13,6 +17,41 @@
   justify-content: center;
   align-items: center;
 }
+
+#buttons{
+  width: 100vh;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#buttons > div {
+  width: 20vh;
+  height: 8vh;
+  background-color: aqua;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
+  color: orange;
+  border: 0.1px solid black;
+}
+
+#buttons > #black {
+  color: black;
+}
+
+#colorful {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: aqua;
+}
+
 
 #main {
   height: 80vh;
