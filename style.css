@@ -47,12 +47,12 @@ body {
   color: black;
 }
 
-#colorful {
+/* #colorful {
   background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: aqua;
-}
+} */
 
 
 #main {
@@ -84,4 +84,60 @@ body {
   /* flex: 1 1 0; */
   /* min-width: 30px;
   aspect-ratio: 1 / 1; */
+}
+
+/* סגנון לחלונית */
+.modal {
+  display: none; /* מוסתרת כברירת מחדל */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* שכבה חצי שקופה */
+  justify-content: center;
+  align-items: center;
+}
+
+/* תוכן החלונית */
+.modal-content {
+  background: #fff;
+  padding: 0px 0px 20px 0px;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  background-color: aqua;
+}
+
+/* כפתור סגירה */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#myTextArea {
+  border-radius: 6px;
+  width: 300px;
+  height: 30px;
+  margin: 15px 0;
+}
+
+p {
+  padding: 15px 0;
+  font-size: 30px;
+  background-color: orange;
+  border-radius: 8px 8px 0 0;
+}
+
+#submit {
+  height: 30px;
+  border-radius: 50px;
+  width: 50px;
+  margin-left: 30px;
+  background-color: orange;
+  font-size: 20px;
+
 }
